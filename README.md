@@ -2,6 +2,8 @@
 
 Experimental Product Management Custom Claude Code skills, hooks, and rules for the Aciety product pipeline.
 
+Note. For these skills and config to be useful, full flow needs to be used (which might be made public after testing completes). 
+
 Clone this repo and copy the files into place as part of the Claude Code setup process. 
 
 ## Contents
