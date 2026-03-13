@@ -1,8 +1,8 @@
 # Aciety-Claude
 
-Custom Claude Code skills, hooks, and rules for the Aciety product pipeline.
+Experimental Product Management Custom Claude Code skills, hooks, and rules for the Aciety product pipeline.
 
-Clone this repo and copy the files into place as part of the Claude Code setup process. See the [installation guide](https://docs.google.com/document/d/13hTlZq4GUoToCSvJZPcen1yT9CgM1FeLAHHWzJ_CiSQ) for full instructions.
+Clone this repo and copy the files into place as part of the Claude Code setup process. 
 
 ## Contents
 
