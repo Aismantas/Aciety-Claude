@@ -1,0 +1,45 @@
+{
+  "autoUpdatesChannel": "latest",
+  "enabledPlugins": {
+    "everything-claude-code@everything-claude-code": true
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node C:/Users/YOUR_USERNAME/.claude/hooks/check-config-changes.mjs"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "TodoWrite(*)",
+      "mcp__google-docs__*",
+      "mcp__google-workspace__*",
+      "mcp__memory__*",
+      "mcp__github__*",
+      "mcp__supabase__*"
+    ],
+    "ask": [
+      "Bash(* .claude/settings.json *)",
+      "Bash(* .claude.json *)",
+      "Edit(C:/Users/YOUR_USERNAME/.claude/settings.json)",
+      "Edit(C:/Users/YOUR_USERNAME/.claude.json)",
+      "Write(C:/Users/YOUR_USERNAME/.claude/settings.json)",
+      "Write(C:/Users/YOUR_USERNAME/.claude.json)"
+    ]
+  }
+}
